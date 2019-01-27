@@ -1,6 +1,6 @@
 /*
 Error: Invalid CSS after "#6c7b88": expected expression (e.g. 1px, bold), was ";"
-        on line 5 of /Users/kevinbalzer/Desktop/Hive80/h40/wwwroot/plugins/fullcalendar/nifty-skin/fullcalendar-nifty.sass
+        on line 5 of /Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/fullcalendar/nifty-skin/fullcalendar-nifty.sass
 
 1: /* FULL CALENDAR *\/
 2: /* ====================================== *\/
@@ -14,7 +14,7 @@ Error: Invalid CSS after "#6c7b88": expected expression (e.g. 1px, bold), was ";
 10: 
 
 Backtrace:
-/Users/kevinbalzer/Desktop/Hive80/h40/wwwroot/plugins/fullcalendar/nifty-skin/fullcalendar-nifty.sass:5
+/Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/fullcalendar/nifty-skin/fullcalendar-nifty.sass:5
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/lexer.rb:231:in `expected!'
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/parser.rb:762:in `assert_done'
@@ -41,4 +41,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"#6c7b88\": expected expression (e.g. 1px, bold), was \";\"\A         on line 5 of /Users/kevinbalzer/Desktop/Hive80/h40/wwwroot/plugins/fullcalendar/nifty-skin/fullcalendar-nifty.sass\A \A 1: /* FULL CALENDAR */\A 2: /* ====================================== */\A 3: /* Skin for Full Calendar */\A 4: \A 5: $body-color					: #6c7b88;\A 6: $font-size-base				: 13px;\A 7: $border-color-base			: #e9e9e9;\A 8: $font-semibold				: 600;\A 9: $border-radius-base			: 0;\A 10: "; }
+  content: "Error: Invalid CSS after \"#6c7b88\": expected expression (e.g. 1px, bold), was \";\"\A         on line 5 of /Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/fullcalendar/nifty-skin/fullcalendar-nifty.sass\A \A 1: /* FULL CALENDAR */\A 2: /* ====================================== */\A 3: /* Skin for Full Calendar */\A 4: \A 5: $body-color					: #6c7b88;\A 6: $font-size-base				: 13px;\A 7: $border-color-base			: #e9e9e9;\A 8: $font-semibold				: 600;\A 9: $border-radius-base			: 0;\A 10: "; }

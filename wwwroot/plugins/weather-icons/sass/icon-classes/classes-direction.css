@@ -1,25 +1,30 @@
 /*
-Error: Undefined variable: "$wi-css-prefix".
-        on line 1 of /Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/weather-icons/sass/icon-classes/classes-wind-degrees.scss
+Error: Undefined variable: "$direction-up".
+        on line 1 of /Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/weather-icons/sass/icon-classes/classes-direction.scss
 
-1: .#{$wi-css-prefix}-wind {
-2:   &.towards-0-deg {@include wind-rotate(0deg);}
-3:   &.towards-1-deg {@include wind-rotate(1deg);}
-4:   &.towards-2-deg {@include wind-rotate(2deg);}
-5:   &.towards-3-deg {@include wind-rotate(3deg);}
-6:   &.towards-4-deg {@include wind-rotate(4deg);}
+1: .wi-direction-up:before {content: $direction-up;}
+2: .wi-direction-up-right:before {content: $direction-up-right;}
+3: .wi-direction-right:before {content: $direction-right;}
+4: .wi-direction-down-right:before {content: $direction-down-right;}
+5: .wi-direction-down:before {content: $direction-down;}
+6: .wi-direction-down-left:before {content: $direction-down-left;}
 
 Backtrace:
-/Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/weather-icons/sass/icon-classes/classes-wind-degrees.scss:1
+/Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/weather-icons/sass/icon-classes/classes-direction.scss:1
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/interpolation.rb:170:in `_perform'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:555:in `block in run_interp_no_strip'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:553:in `map'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:553:in `run_interp_no_strip'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:560:in `run_interp'
-/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:423:in `visit_rule'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
@@ -51,4 +56,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$wi-css-prefix\".\A         on line 1 of /Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/weather-icons/sass/icon-classes/classes-wind-degrees.scss\A \A 1: .#{$wi-css-prefix}-wind {\A 2:   &.towards-0-deg {@include wind-rotate(0deg);}\A 3:   &.towards-1-deg {@include wind-rotate(1deg);}\A 4:   &.towards-2-deg {@include wind-rotate(2deg);}\A 5:   &.towards-3-deg {@include wind-rotate(3deg);}\A 6:   &.towards-4-deg {@include wind-rotate(4deg);}"; }
+  content: "Error: Undefined variable: \"$direction-up\".\A         on line 1 of /Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/weather-icons/sass/icon-classes/classes-direction.scss\A \A 1: .wi-direction-up:before {content: $direction-up;}\A 2: .wi-direction-up-right:before {content: $direction-up-right;}\A 3: .wi-direction-right:before {content: $direction-right;}\A 4: .wi-direction-down-right:before {content: $direction-down-right;}\A 5: .wi-direction-down:before {content: $direction-down;}\A 6: .wi-direction-down-left:before {content: $direction-down-left;}"; }

@@ -1,16 +1,20 @@
 /*
 Error: Undefined variable: "$wi-css-prefix".
-        on line 1 of /Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/weather-icons/sass/icon-classes/classes-wind-degrees.scss
+        on line 5 of /Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/weather-icons/sass/icon-classes/classes-wind.scss
 
-1: .#{$wi-css-prefix}-wind {
-2:   &.towards-0-deg {@include wind-rotate(0deg);}
-3:   &.towards-1-deg {@include wind-rotate(1deg);}
-4:   &.towards-2-deg {@include wind-rotate(2deg);}
-5:   &.towards-3-deg {@include wind-rotate(3deg);}
-6:   &.towards-4-deg {@include wind-rotate(4deg);}
+1: // Wind Variables 2.0
+2: 
+3: $wind: "\f0b1";
+4: 
+5: .#{$wi-css-prefix}-wind:before { content: $wind; }
+6: 
+7: @mixin wind-rotate( $val: 0deg ) {
+8:   -webkit-transform: rotate($val);
+9:   -moz-transform: rotate($val);
+10:   -ms-transform: rotate($val);
 
 Backtrace:
-/Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/weather-icons/sass/icon-classes/classes-wind-degrees.scss:1
+/Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/weather-icons/sass/icon-classes/classes-wind.scss:5
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver CC 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/tree/interpolation.rb:170:in `_perform'
@@ -51,4 +55,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$wi-css-prefix\".\A         on line 1 of /Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/weather-icons/sass/icon-classes/classes-wind-degrees.scss\A \A 1: .#{$wi-css-prefix}-wind {\A 2:   &.towards-0-deg {@include wind-rotate(0deg);}\A 3:   &.towards-1-deg {@include wind-rotate(1deg);}\A 4:   &.towards-2-deg {@include wind-rotate(2deg);}\A 5:   &.towards-3-deg {@include wind-rotate(3deg);}\A 6:   &.towards-4-deg {@include wind-rotate(4deg);}"; }
+  content: "Error: Undefined variable: \"$wi-css-prefix\".\A         on line 5 of /Users/kevinbalzer/Desktop/Hive80-Design/wwwroot/plugins/weather-icons/sass/icon-classes/classes-wind.scss\A \A 1: // Wind Variables 2.0\A 2: \A 3: $wind: \"\f0b1\";\A 4: \A 5: .#{$wi-css-prefix}-wind:before { content: $wind; }\A 6: \A 7: @mixin wind-rotate( $val: 0deg ) {\A 8:   -webkit-transform: rotate($val);\A 9:   -moz-transform: rotate($val);\A 10:   -ms-transform: rotate($val);"; }
