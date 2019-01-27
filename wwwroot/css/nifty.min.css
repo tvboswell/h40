@@ -4,7 +4,7 @@
     height: 165px;
     width: 100%;
     position: absolute;
-    background-color: #25476a;
+    background-color: #4a4d57;
     z-index: 0
 }
 
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 ::selection {
-    background-color: #25476a;
+    background-color: #4a4d57;
     color: #fff
 }
 
@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     border: 0 none;
     font-size: 1.5em;
     font-weight: 400;
-    color: #4d627b;
+    color: #4a4d57;
     margin: 0;
     padding: 10px 0 10px
 }
@@ -615,7 +615,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     position: absolute;
     width: 100%;
     z-index: 3999;
-    background-color: #25476a;
+    background-color: #4a4d57;
     left: 0;
     top: 0
 }
